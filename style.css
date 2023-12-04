@@ -1,0 +1,93 @@
+.container {
+    width: 600px;
+    height: 560px;
+    background-color: #00ff72;
+    margin-top: 20px;
+    margin-left: 400px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    /* background-image: url('./flower.jpg'); */
+    background-image: linear-gradient(yellow,green);
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    
+
+
+}
+
+  
+  /* @keyframes example {
+    0%   {background-image: linear-gradient(to right,purple,red);}
+    25%  {background-image:linear-gradient(to right,yellow,orange) }
+    50%  {background-image:linear-gradient(to right,brown,yellow)}
+    100% {background-image: linear-gradient(to right,red,green);}
+  } */
+
+.form {
+    padding: 50px;
+
+}
+
+#name,
+#weight,
+#height {
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+#calculate {
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#calculate:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 30px;
+}
+#message {
+    font-size: 30px;
+}
+body{
+    background-image: url('../images/backgrounds.jpg');
+    height: 400px;
+}
+input{
+    width: 70%;
+}
+input :hover{
+    width: 70%;
+    box-shadow: 4px 6px yellow;
+    background-color: cadetblue;
+}
+footer{
+    color: red;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
