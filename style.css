@@ -71,7 +71,7 @@ h1 {
     font-size: 30px;
 }
 body{
-    background-image: url('../images/backgrounds.jpg');
+    background-image: url('backgrounds.jpg');
     height: 400px;
 }
 input{
